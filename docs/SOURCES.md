@@ -9,6 +9,10 @@ Sources reviewed on 30 September 2026. Links point to the source supporting the 
 | [Grassmann.jl documentation](https://grassmann.crucialflow.com/dev/) | Geometric-algebra vocabulary and parameterized-space design | Machinability, clearance, process capability, or physical accuracy |
 | [Grassmann.jl license](https://github.com/chakravala/Grassmann.jl/blob/8f38550e9dd2f0d759060d44a8d115bc8b0b7b04/LICENSE) | AGPL-3.0 licensing of the original source | Permission to relicense copied code under this paper's license |
 | [CGAL geometry kernel manual](https://doc.cgal.org/latest/Kernel_23/index.html) | Distinction between predicates and constructions; numerical robustness considerations | Formal verification of a call to an external geometric library |
+| [Verified 3D mesh intersection README, pinned revision](https://github.com/schildep/verified-3d-mesh-intersection/blob/c537025f69511110108acc9608dc1cdb19025057/README.md) | Prior project's stated scope and kernel/demo distinction | Independent reproduction of its build, performance, or priority claims |
+| [Mesh interface and result contract](https://github.com/schildep/verified-3d-mesh-intersection/blob/c537025f69511110108acc9608dc1cdb19025057/CSG/MeshIntersectWithPreconditionCheck.lean) | Exposed success, acceptance, and error theorem statements | Machinability, continuous tool motion, material capability, or inspection |
+| [Mesh semantics](https://github.com/schildep/verified-3d-mesh-intersection/blob/c537025f69511110108acc9608dc1cdb19025057/CSG/Def.lean) | Open-solid convention and stated well-formedness conditions allowing edge/vertex contact | Positive manufacturing clearance or strict 2-manifoldness |
+| [Mesh project's source license](https://github.com/schildep/verified-3d-mesh-intersection/blob/c537025f69511110108acc9608dc1cdb19025057/LICENSE) and [third-party notices](https://github.com/schildep/verified-3d-mesh-intersection/blob/c537025f69511110108acc9608dc1cdb19025057/THIRD-PARTY-NOTICES.md) | MIT source license and separately licensed components in distributed demos | A license change to this paper; no source or artifacts were imported |
 | [LinuxCNC kinematics](https://linuxcnc.org/docs/stable/html/motion/kinematics.html) | Cartesian/joint distinction and forward/inverse kinematics | A certified trajectory or limits of a particular machine |
 | [NIST RS274/NGC interpreter report](https://www.nist.gov/publications/nist-rs274ngc-interpreter-version-3) | Interpreter and canonical-machining-function semantic boundary | Verification of a contemporary controller/postprocessor |
 | [SendCutSend sheet-cutting guide](https://sendcutsend.com/guidelines/sheet-cutting/) | File guidance, service restrictions, material/process relationship | A universally applicable machining grammar or supported developer API |
@@ -22,6 +26,7 @@ Sources reviewed on 30 September 2026. Links point to the source supporting the 
 - Michael Reed's reported CNC interest was not confirmed in the primary sources and public-post searches examined. The paper does not assert it.
 - A supported public SendCutSend API contract was not found in the official sources and site search examined. This does not rule out a private or partner API.
 - No Lean build, manufacturing checker, external-oracle certificate check, machine execution, supplier upload, quote, or metrology validation is reported by this design sketch.
+- The mesh-intersection comparison is based on source inspection at the pinned revision; its proofs and compiled demo were not independently rebuilt or audited in this review.
 
 ## Publication provenance
 
