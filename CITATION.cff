@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this design sketch when discussing its proposed manufacturing-witness architecture."
+title: "Verified Design: shapes with manufacturing witnesses"
+authors:
+  - name: "Alok"
+    alias: "alok"
+version: "0.1.0"
+date-released: "2026-09-30"
+url: "https://github.com/alok/verified-design"
+license: "CC-BY-4.0"
+type: "report"
