@@ -1,0 +1,16 @@
+{
+  "reviewed_at": "2026-09-30",
+  "status": "public_documentation_only",
+  "supported_api_contract": null,
+  "authentication": "not_configured",
+  "sources": [
+    {"topic": "sheet_cutting_guidance", "url": "https://sendcutsend.com/guidelines/sheet-cutting/"},
+    {"topic": "billet_cnc_service", "url": "https://sendcutsend.com/services/cnc-machining/"},
+    {"topic": "guidance_index", "url": "https://sendcutsend.com/guidelines/"},
+    {"topic": "materials_index", "url": "https://sendcutsend.com/materials/"},
+    {"topic": "faq", "url": "https://sendcutsend.com/faq/"},
+    {"topic": "commercial_workflow", "url": "https://sendcutsend.com/commercial/"},
+    {"topic": "marketplace_workflow", "url": "https://sendcutsend.com/marketplace/"},
+    {"topic": "supplier_contact_information", "url": "https://sendcutsend.com/contact/"}
+  ]
+}

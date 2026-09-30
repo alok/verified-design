@@ -1,0 +1,18 @@
+{
+  "name": "sendcutsend-readonly",
+  "version": "0.1.0",
+  "description": "Read official SendCutSend guidance and prepare evidence-labeled manufacturing handoffs. No API or account connection.",
+  "author": {
+    "name": "Alok"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SendCutSend Read-only Guidance",
+    "shortDescription": "Read official guidance and prepare a handoff.",
+    "longDescription": "A skill-only documentation plugin. Reads official public sources and prepares a design handoff with explicit unknowns. Contains no service API, authentication, uploads, quotes, carts, or order actions.",
+    "developerName": "Alok",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use official SendCutSend documentation to prepare an evidence-labeled handoff for my design."
+  }
+}
